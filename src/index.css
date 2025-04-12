@@ -1,0 +1,27 @@
+@import "tailwindcss";
+.input{
+    background-color: aqua;
+    color: blue;
+}
+.input input {
+    background-color: darkkhaki;
+    color: crimson;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+.input button{
+    background-color: darkkhaki;
+    color: crimson;
+    border-radius: 5px;
+    size: 50px;
+    padding: 5px;
+}
+.show{
+    background-color: blueviolet;
+    color:yellow ;
+}
+.head{
+    background-color: darkseagreen;
+    color: saddlebrown;
+}
