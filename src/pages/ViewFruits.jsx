@@ -5,7 +5,7 @@ function ViewFruits() {
   const [fruits, setFruits] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/fruits')
+    axios.get('https://fruit-backend-2-d82p.onrender.com')
       .then(res => setFruits(res.data))
       .catch(err => console.error('Error fetching fruits:', err));
   }, []);
