@@ -7,7 +7,7 @@ function AddFruit() {
   const handleAdd = async () => {
     if (fruit.trim() === '') return;
     try {
-      await axios.post('http://localhost:5000/fruits', { name: fruit });
+      await axios.post('https://fruit-backend-2-d82p.onrender.com', { name: fruit });
       setFruit('');
     } catch (error) {
       console.error('Error adding fruit:', error);
